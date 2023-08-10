@@ -53,4 +53,9 @@ background-color: #ffac00;
     display: none;
   }
 }
+@media (max-width:700px) {
+  #smallDiv {
+    width: 95%;
+  }
+}
 
