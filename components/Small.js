@@ -55,7 +55,7 @@ const Small = ({ handleSearch, isMetric, setIsMetric, cityName, feelsLike, setCi
     <button className="btn btn-success" type="submit" onClick={handleSearch}>Go</button> 
   </div>
   <h2 className='text-center text-dark'> {day},{time}</h2>
-  <h3 className='text-center pt-1 text-dark'> {name},{country}</h3>
+  <h2 className='text-center pt-1 text-dark'><b> {name},{country}</b></h2>
  <h6 className='text-center text-dark'>{description}</h6>
  <div style={{ height: "8em" }} className='text-center'>
  <Image
