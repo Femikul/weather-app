@@ -82,7 +82,7 @@ const Small = ({ handleSearch, isMetric, setIsMetric, cityName, feelsLike, setCi
 </button>
 <div className='float-end ms-5 mt-4' style={{ width: "45%" }}>
       <p  className='btn btn-success btn-sm' onClick={handleToggleUnit}>Imperial System</p>
-    <p  className={`btn btn-success btn-sm ms-2${isMetric ? 'active' : ''}`}     onClick={handleToggleUnit}>Metric System</p>
+    <p  className='btn btn-success btn-sm ms-2'  onClick={handleToggleUnit}>Metric System</p>
 </div>
 </div>
 

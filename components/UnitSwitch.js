@@ -11,7 +11,7 @@ const UnitSwitch = ({ weatherData, isMetric, setIsMetric }) => {
       <ul className="nav container">
         <li className="nav-item me-3">
           <button
-             className='btn btn-success'
+             className='btn btn-success btn-sm'
             onClick={handleToggleUnit}
           >
             Imperial System
@@ -19,7 +19,7 @@ const UnitSwitch = ({ weatherData, isMetric, setIsMetric }) => {
         </li>
         <li className="nav-item">
           <button
-         className='btn btn-success'
+         className='btn btn-success btn-sm'
          onClick={handleToggleUnit}
           >
             Metric System
