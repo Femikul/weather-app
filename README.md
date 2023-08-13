@@ -1,5 +1,6 @@
 # Weather App
- Check the time and the Weather Data of any city in the world!
+ Check the time and the Weather Data of any city in the world!.
+ Weather app built with React and powered by NextJs, OpenWeather api and Bootstrap 5.
  <br>
 <br>
 # FEATURES
