@@ -31,7 +31,7 @@ const MetricsBox = ({ weatherData, isMetric, setIsMetric, sunrise, sunset, isDar
         <div className={`col-4 rounded-4 clearfix ${bgColorClass}`} style={{ height: '6em', width: '44%', overflow: "hidden" }}>
      <h6 className='text-nowrap pt-2'>Wind speed
      <img src='/wind.svg' width='32%' height='30%' className='float-end mx-auto'/>
-     <b><h4 className='float-sm-end me-2 mt-1 p-1' style={{ fontWeight: "bold" }}> {isMetric ? `${windSpeedMetersPerSecond} m/s` : `${windSpeedMilesPerHour} m/h`}</h4></b>
+     <b><h5 className='float-sm-end me-2 mt-1 p-1' style={{ fontWeight: "bold" }}> {isMetric ? `${windSpeedMetersPerSecond} m/s` : `${windSpeedMilesPerHour} m/h`}</h5></b>
      </h6>
         </div>
         <div className={`col-4 rounded-4 ms-3 ${bgColorClass}`} style={{ height: '6em', width: '44%' }}>
